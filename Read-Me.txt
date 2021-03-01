@@ -8,4 +8,8 @@ In the server app, i added some packages: express, dotenv, Cors, body-parser and
 -Body-Parser  parses the JSON, string and URL encoded data submitted using HTTP POST request.
 -Cors is to allow cross origin resource sharing.
 
-in order to run the app, first of all navigate inside the main folder.
+
+Make sure to have nodejs installed on your machine.
+
+In order to run the app, first of all navigate inside the main folder.
+After that navigate into the server folder using the CLI and hit : " npm install " in order to install all the packages.
