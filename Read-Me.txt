@@ -1,0 +1,9 @@
+Once we start our  web application, a worker service will be created in the background waiting for certain events.
+Now the server (ex: Nodejs Web Api) will send/PUSH some events to the worker service.
+The server has two keys : Public key and a private key(The last one is only known by the server) (This is an asymmetric encryption).
+
+In the server app, i added some packages: express, dotenv, Cors, body-parser and web-push.
+-Web-push is a package that allows a JavaScript code that lives in a Nodejs Application to send push notifications.
+-Express is a package that allows us to do a webserver.
+-Body-Parser  parses the JSON, string and URL encoded data submitted using HTTP POST request.
+-Cors is to allow cross origin resource sharing.
