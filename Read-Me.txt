@@ -14,3 +14,8 @@ Make sure to have nodejs installed on your machine.
 In order to run the app, first of all navigate inside the main folder.
 After that navigate into the server folder using the CLI and hit : " npm install " in order to install all the packages.
 also navigate into the client app and do the same thing "npm install"
+
+now open 2 CLIs and navigate to client-app and to server-app
+in the client- app CLI run : npm start
+in the server-app CLI run : node index.js
+
