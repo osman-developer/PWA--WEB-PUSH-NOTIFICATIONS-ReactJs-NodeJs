@@ -19,3 +19,7 @@ now open 2 CLIs and navigate to client-app and to server-app
 in the client- app CLI run : npm start
 in the server-app CLI run : node index.js
 
+finally open the browser and navigate to localhost:3000 
+to test it using postman make a new  POST request and in the urls type : localhost:9000/notifications/subscribe and in the body 
+copy the endpoint in the server-app cli after that his send.
+a notification will popup.
